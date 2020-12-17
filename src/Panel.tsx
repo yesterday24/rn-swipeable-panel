@@ -15,7 +15,7 @@ import { Close } from './Close';
 
 let FULL_HEIGHT = Dimensions.get('window').height;
 let FULL_WIDTH = Dimensions.get('window').width;
-let PANEL_HEIGHT = FULL_HEIGHT - 100;
+let PANEL_HEIGHT = FULL_HEIGHT - 125;
 
 const STATUS = {
   CLOSED: 0,
