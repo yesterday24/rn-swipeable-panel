@@ -257,6 +257,7 @@ class SwipeablePanel extends Component<SwipeablePanelProps, SwipeablePanelState>
               return false;
             }}
             contentContainerStyle={SwipeablePanelStyles.scrollViewContentContainerStyle}
+            showsVerticalScrollIndicator={false}
           >
             {this.state.canScroll ? (
               <TouchableHighlight>
